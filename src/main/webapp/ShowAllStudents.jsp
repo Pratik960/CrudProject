@@ -20,8 +20,8 @@
 	for (Student data : students) {
         out.println("ID: " + data.getId() + "<br/>");
         out.println("First Name: " + data.getfName() + "<br/>");
-        out.println("First Name: " + data.getlName() + "<br/>");
-        out.println("First Name: " + data.getCourse() + "<br/>");
+        out.println("Last Name: " + data.getlName() + "<br/>");
+        out.println("Course: " + data.getCourse() + "<br/>");
         out.println("<br/>");
     }
 	
